@@ -4,9 +4,7 @@
 
         <div class="section-title">
             <h2>Contact</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
-                in iste officiis commodi quidem hic quas.</p>
+            <p>Hubungi saya dengan menggunakan kontak dibawah ini atau Anda dapat mengisi form berikut. <br> <span>*Untuk pengiriman lewat form silahkan tunggu respon paling lambat 2x24 jam.</span></p>
         </div>
 
         <div class="row" data-aos="fade-in">
@@ -37,15 +35,15 @@
             </div>
 
             <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <form action="<?= base_url('landing/send_email') ?>" method="post" role="form" class="php-email-form">
                     <div class="row">
                         <div class="form-group col-md-6">
                             <label for="name">Your Name</label>
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Fill the blank" required>
+                            <input type="text" name="username" class="form-control" id="name" placeholder="Fill the blank" required>
                         </div>
                         <div class="form-group col-md-6">
                             <label for="name">Your Email</label>
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Fill the blank" required>
+                            <input type="email" class="form-control" name="recipient" id="recipient" placeholder="Fill the blank" required>
                         </div>
                     </div>
                     <div class="form-group">

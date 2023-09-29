@@ -11,7 +11,7 @@
 
 		<div class="row">
 			<div class="col-lg-4" data-aos="fade-right">
-				<img src="<?= base_url('templates/') ?>assets/img/profile-img.jpg" class="img-fluid" alt="">
+				<img src="<?= base_url('templates/') ?>assets/img/profile.png" class="img-fluid" alt="">
 			</div>
 			<div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
 				<h3>Programmer &amp; Web Developer.</h3>
@@ -41,9 +41,7 @@
 				</div>
 				<p>
 					Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et
-					ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-					Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque.
-					Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+					ut. Nulla accusantium dolor incidunt officia tempore.
 				</p>
 			</div>
 		</div>

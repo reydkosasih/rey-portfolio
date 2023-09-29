@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>iPortfolio Bootstrap Template - Index</title>
+    <title>Personal Portfolio - Rey Dwi Kosasih</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
@@ -46,7 +46,7 @@
         <div class="d-flex flex-column">
 
             <div class="profile">
-                <img src="<?= base_url('templates/') ?>assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
+                <img src="<?= base_url('templates/') ?>assets/img/profile.png" alt="" class="img-fluid rounded-circle">
                 <h1 class="text-light"><a href="<?= site_url('landing') ?>">Rey Dwi Kosasih</a></h1>
                 <div class="social-links mt-3 text-center">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
